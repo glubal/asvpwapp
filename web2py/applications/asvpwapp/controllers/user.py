@@ -4,3 +4,6 @@ def login():
 
 def switch():
     pass
+
+def logoff():
+    pass

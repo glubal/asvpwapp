@@ -9,6 +9,7 @@ def add():
     # Add a result to the user's score
     pass
 
-def confirm()
+
+def confirm():
     # Confirm the entered round score
     pass
