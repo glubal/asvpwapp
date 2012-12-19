@@ -1,0 +1,218 @@
+.links{
+	float:left;
+	text-align:left;
+	padding-right:5px;
+}
+
+.rechts{
+	float:right;
+	padding-right:5px;
+}
+
+.center{
+	text-align:center;
+}
+
+
+
+
+body{
+	font-family:Helvetica;
+	background-color:#4C4742;	
+}
+
+a{
+	font-family:Helvetica;
+	color:black;
+}
+
+h1{
+	color:#e75f1e;
+	font-size:24px;
+}
+h2{
+	color:#e75f1e;
+	font-size:20px;
+}
+
+#container{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header{
+	width:900px;
+	height:150px;
+	background-image:url('afbeeldingen/opmaak/header.png');
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	}
+
+#menu{
+	float:left;
+	width:900px;
+	height:60px;
+	background-image:url('afbeeldingen/opmaak/zwart.jpg');
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	text-align:center;
+}	
+
+#menu li{
+	cursor:default;
+   	position:relative;
+   	text-decoration:none;	
+	float:left;
+	list-style:none;	
+	background-image:url('afbeeldingen/opmaak/button.png');
+	background-repeat:no-repeat;
+	margin-left:23px;
+	margin-bottom:5px;
+	padding-top:6px;
+}
+
+#menu ul {
+	list-style:none;	
+	position:relative;
+	padding:0px 0px 0px 5px;
+	position:relative;
+   	font-size:18px;
+	list-style:none;
+}
+
+#menu p{
+	display:block;
+	width:120px;
+	height:30px;
+	color:black;
+	text-decoration:none;
+	list-style:none;	
+	font-family:Helvetica;
+	margin-top:0px;
+}
+
+#menu a{
+	display:block;
+	width:120px;
+	height:30px;
+	color:black;
+	text-decoration:none;
+	list-style:none;	
+	font-family:Helvetica;
+}	
+
+#menu li:hover{
+	background-image:url('afbeeldingen/opmaak/buttonlicht.png');
+	list-style:none;	
+}
+#menu a:hover{
+	display:block;
+	width:120px;
+	height:30px;
+	color:black;
+	list-style:none;	
+}
+
+#menu li.sub{
+  	cursor:pointer;
+	list-style:none;	
+}
+
+#menu ul.sub{
+   	display:none;
+   	position:absolute;
+   	left:-25px;
+   	top:45px;
+	list-style:none;
+}
+
+#content{
+	width:900px;
+	float:left;
+	background-image:url('afbeeldingen/opmaak/zwart.jpg');
+}
+
+
+
+#rond{
+	margin-left:10px;
+	display:block;
+	width:880px;
+	color:black;
+	background-color:#CCCCCC;
+}
+	
+strong.xrtop,strong.xrbottom{
+	display:block;
+	background-color:black;
+	color:inherit !important;
+}
+strong.xrtop strong,strong.xrbottom strong{
+	color:#00ff00;
+	display:block;
+	height:1px;
+	overflow:hidden;
+	background:#CCCCCC;
+}
+strong.xrbottom strong{
+	color:#00ff00;
+	background:#CCCCCC;
+}	
+strong.xr1{
+	margin:0 5px;
+}
+strong.xr2{
+	margin:0 3px;
+}
+strong.xr3{
+	margin:0 2px;
+}
+strong.xrtop strong.xr4, strong.xrbottom strong.xr4{
+	margin:0 1px;
+	height:2px;
+}
+
+#headlines{
+	float:right;
+	background-color:#CCCCCC;
+	
+}
+
+#inhoud{
+	width:860px;
+	margin:0px 10px 0px 10px;
+}
+
+
+input, textarea, select{
+background-color: lightgrey;
+color: black;
+border-width:1;
+border-color:black;
+}
+
+.nieuws {
+border-width: 1;
+border-style: solid;
+border-color: black;
+}
+
+h2{
+	color:#e75f1e;
+	font-size:16px;
+}
+
+
+
+
+#footer{
+	width:900px;
+	height:75px;
+	float:left;
+	background-image:url('afbeeldingen/opmaak/footer.png');
+	background-repeat:no-repeat;
+	text-align:center;
+	padding-top:30px;
+	color:#db5a1e;
+}
