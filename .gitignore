@@ -1,0 +1,11 @@
+*.pyc
+.settings/
+*.swp
+.pydevproject
+errors/*
+*.shelve
+session/*
+*.log
+parameters_*.py
+*.sqlite
+languages/*
