@@ -2,7 +2,10 @@
 
 def index():
     # Show main page to enter a user's score
-    pass
+    html = dict()
+    form = SQLFORM(db.shooters)
+    html['message'] = 'Title'
+    return html
 
 
 def add():
